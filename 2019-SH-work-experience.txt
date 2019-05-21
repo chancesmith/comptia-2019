@@ -1,0 +1,20 @@
+name: 
+Chance Smith
+
+Current job title: 
+Developer
+
+The Continuing Education (CE) year for which your work experience is being submitted: 
+2019
+
+Tasks you performed:
+- networking/troubleshooting servers
+- check/troubleshoot DNS records
+- check/validate/setup SSL certificates (HTTPS)
+- connect to servers via SSH
+
+Signature of your supervisor: 
+William Donnell
+
+
+______________________________

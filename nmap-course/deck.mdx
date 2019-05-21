@@ -1,0 +1,301 @@
+export { dark as theme } from "mdx-deck/themes";
+
+# Let's learn Nmap
+
+Keep your actions legal. This is for educational purposes only.
+
+# Nmap
+
+---
+
+# Nmap
+
+network mapper
+
+---
+
+# What is Nmap?
+
+---
+
+# What is Nmap?
+
+- foot printing tool
+- reconnaissance tool
+
+---
+
+# What is Nmap in plain English?
+
+Nmap is a great tool for getting information about other devices on the network.
+
+---
+
+# Who uses Nmap?
+
+This is a must have tool for ethical hackers.
+
+---
+
+# Nmap
+
+- free
+- security scanner
+- port scanner
+- network exploration tool
+
+---
+
+# free on any OS
+
+Open source software
+
+---
+
+# Nmap use cases
+
+- network inventory
+- managing service upgrade schedules
+- monitoring host (uptime)
+- penetration testing
+
+---
+
+# What is Nmap doing
+
+Nmap usings raw IP packects in grand ways to find out...
+
+what hosts are available on the network
+
+---
+
+# What is Nmap doing
+
+Nmap usings raw IP packects in grand ways to find out...
+
+- what hosts are available on the network
+- what services (application name and version) those hosts have
+- what operating systems are running
+
+---
+
+# What was Nmap designed to do?
+
+---
+
+# What was Nmap designed to do?
+
+Scan large networks
+
+---
+
+# What TCP/IP protocols does Nmap use?
+
+---
+
+# What TCP/IP protocols does Nmap use?
+
+1. Application layer : FTP, HTTP, SNMP, BOOTP, DHCP
+1. Transport layer : TCP, UDP, ICMP, IGMP
+1. Network layer : ARP, IP, RARP
+1. Data link layer : SLIP, PPP
+
+<cite>
+  source:
+  https://medium.com/@infosecsanyam/nmap-cheat-sheet-nmap-scanning-types-scanning-commands-nse-scripts-868a7bd7f692
+</cite>
+
+---
+
+# Where do I install Nmap?
+
+https://nmap.org/download.html
+
+---
+
+# How do I start Nmap?
+
+Open your terminal and type:
+`$ nmap`
+
+You should have the manual printed out. These are different options we have available.
+
+---
+
+# What is a con of Nmap?
+
+Nmap is a very noisy scanner. This means it is easly detected by firewalls and servers.
+
+---
+
+# What is a con of Nmap?
+
+Nmap is a very noisy scanner. This means it is easly detected by firewalls and servers.
+
+---
+
+# What is a pro for using Nmap?
+
+A wonderful part of Nmap, is being able to scan anonymously or quitely so we aren't detected.
+
+---
+
+# How can I test Nmap's scanning ability?
+
+Nmap.org has a server up and running for testing. This is a great way to test your skills.
+
+---
+
+# How can I test Nmap's scanning ability?
+
+http://scanme.nmap.org
+
+---
+
+# Get permission to scan
+
+On any server you are scanning, be sure you have written permission to do so. #keepItLegal
+
+---
+
+# Let's break down a scan
+
+`$ nmap -v -A scanme.nmap.org`
+
+---
+
+# Let's break down a scan
+
+`$ nmap -v -A scanme.nmap.org`
+
+- `-v` Print version number
+
+---
+
+# Let's break down a scan
+
+`$ nmap -v -A scanme.nmap.org`
+
+- `-v` Print version number
+- `-A` Enable OS detection, version detection, script scanning, and traceroute
+
+---
+
+# Let's break down a scan
+
+`$ nmap [-option] [target]`
+
+---
+
+# Let's break down a scan
+
+`$ nmap [-option] [target]`
+
+The target could be a domain or range of IPs
+
+---
+
+# Need an IP?
+
+Use `nslookup` to get an IP from a domain.
+
+- `$ nslookup scanme.nmap.org`
+
+---
+
+# Need an IP?
+
+Use `nslookup` to get an IP from a domain.
+
+- `$ nslookup scanme.nmap.org`
+
+----results----
+
+```
+Server:         10.0.1.1
+Address:        10.0.1.1#53
+
+Non-authoritative answer:
+Name:   scanme.nmap.org
+Address: 45.33.32.156
+```
+
+---
+
+# First scan
+
+No options added
+
+`$ namp scanme.nmap.org`
+
+# First scan
+
+`$ namp scanme.nmap.org`
+
+## Nmap will scan through 1000 ports. Let's see the results.
+
+# First scan
+
+`$ namp scanme.nmap.org`
+
+----results----
+Starting Nmap 7.70 ( https://nmap.org ) at 2019-05-20 20:58 CDT
+Nmap scan report for scanme.nmap.org (45.33.32.156)
+Host is up (0.095s latency).
+Not shown: 993 closed ports
+PORT STATE SERVICE
+21/tcp open ftp
+22/tcp open ssh
+80/tcp open http
+554/tcp open rtsp
+7070/tcp open realserver
+9929/tcp open nping-echo
+31337/tcp open Elite
+
+## Nmap done: 1 IP address (1 host up) scanned in 5.13 seconds
+
+---
+
+# First scan
+
+`$ namp scanme.nmap.org`
+
+1000 ports is not efficient. It is best to pick the ports you want to attack.
+
+---
+
+# Scan once. Saving results.
+
+Nmap takes time to scan all the ports you wish to check. There is a lot of data and saving it would be better rather than running the scan again.
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
