@@ -1,0 +1,27 @@
+author: Chance Smith
+date created: May 2019
+
+- Let's learn Nmap
+- Nmap
+- What is Nmap?
+- What is Nmap in plain English?
+- Who uses Nmap?
+- Nmap
+- free on any OS
+- Nmap use cases
+- What is Nmap doing
+- What was Nmap designed to do?
+- What TCP/IP protocols does Nmap use?
+- Where do I install Nmap?
+- How do I start Nmap?
+- What is a con of Nmap?
+- What is a pro for using Nmap?
+- How can I test Nmap's scanning ability?
+- Get permission to scan
+- Let's break down a scan
+- Need an IP?
+- Need an IP?
+- First scan
+- Scan once. Saving results.
+- More powerful scans
+  - Find the OS and version
