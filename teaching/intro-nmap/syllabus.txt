@@ -1,0 +1,14 @@
+author: Chance Smith
+date created: May 2019
+
+- Let's learn Nmap
+- Nmap
+- What is Nmap?
+- What is Nmap in plain English?
+- Who uses Nmap?
+- Nmap
+- free on any OS
+- Nmap use cases
+- What is Nmap doing
+- What was Nmap designed to do?
+- What TCP/IP protocols does Nmap use?

@@ -1,0 +1,3 @@
+date: April 16th 2018
+description:
+Introduciton into Network+. Learn what is on the Comptia exam and join career field of IT.

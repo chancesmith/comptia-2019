@@ -1,0 +1,302 @@
+author: Chance Smith
+date created: April 2019
+
+- 1. About the Presentations
+- 2. Network+ Guide to Networks 6th Edition Chapter 1 An Introduction to Networking
+- 3. Objectives
+	- advantages of networked computing relative to stand-alone computing
+	- Distinguish between client/server and peer-to-peer networks
+- 4.- List elements common to all client/server networks 3Network+ Guide to Networks, 6th Edition
+	- Describe several specific uses for a network
+	- Identify certifications available to networking professionals
+	- Identify skills and specializations that will help you excel as a networking professional
+- 5. Why Use Networks?
+	- Network
+		– Group of computers and devices
+		- Connected by transmission media
+	- Stand-alone computer
+		– Not connected to other computers
+		– Uses local software and data
+	- Advantages of networks
+		– Device sharing by multiple users
+		- Saves money and time
+		– Central network management
+- 6. Types of Networks
+	- Models vary according to:
+		– Computer positioning
+		– Control levels over shared resources
+		– Communication and resource sharing schemes
+	- Network models
+		- Peer-to-peer
+		- Client/server
+- 7. Peer-to-Peer Networks
+	- Direct computer communication
+	- Individual resource sharing
+	- Traditional model
+	- Advantages
+		- Simple configuration
+		- Less expensive
+		- Compared to other network models
+	- Disadvantages
+		- Not flexible
+		- Not necessarily secure
+		- Not practical for large installations
+	- Resource sharing method
+		- Modify file sharing controls
+		- Not centrally controlled
+	- Environments
+		- Small home or office
+		- Large networks using the Internet
+			- Gnutella, Bitcoin, original Napster
+			- BitTorrent software
+- 8. Client/Server Networks
+	- Server
+		- Central computer
+		- Facilitates communication and resource sharing
+	- Clients
+		- Personal computers
+		- Also known as workstations
+	- Central resource sharing controlled by server
+		- Sharing data, storage space, devices
+		- No direct sharing of client resources
+	- Computer roles
+		- Server
+		- Clients
+			- Run local applications
+			- Store data locally
+			- Use server shared applications, data, devices
+			- Use server as intermediary
+	- Communication
+		- Switches or routers
+	- Server requirement
+	- Network operating system
+	- Manages client data, resources
+	- Ensures authorized user access
+	- Controls user file access
+	- Restricts user network access
+	- Dictates computer communication rules
+	- Supplies application to clients
+	- Server examples
+	- UNIX, Linux, Microsoft Server 2008 R2, MAC OS X Server
+	- Server features relative to clients
+	- More memory, processing, storage capacity
+	- Equipped with special hardware
+	- Provides network management functions
+	- Disadvantages relative to peer-to-peer networks
+	- Complex design and maintenance
+	- Advantages relative to peer-to-peer networks
+	- User credential assigned from one place
+	- Multiple shared resource access centrally controlled
+	- Central problem monitoring, diagnostics, correction capabilities
+	- Optimized to handle heavy processing loads
+	- Can connect many computers on a network
+	- More scalable
+- 9. LANs, MANs, and WANs
+	- LAN (local area network)
+	- Network confined to a relatively small space
+	- 1980s
+	- LANs became popular as peer-to-peer based
+	- Today
+	- Larger and more complex client/server network
+	- MAN (metropolitan area network)
+	- Connects clients and servers from multiple buildings
+	- Uses different transmission media and technology than LAN
+- 10. LANs, MANs, and WANs
+	- Interconnected LANs Courtesy Course Technology/Cengage Learning
+	- WAN (wide area network)
+	- Connects two or more geographically distinct LANs or MANs
+	- Uses different transmission methods and media than LAN
+	- Network connection
+	- Separate offices in same organization
+	- Separate offices in different organizations
+- 11. LANs, MANs, and WANs
+	- A simple WAN Courtesy Course Technology/Cengage Learning
+- 12. Elements Common to Client/Server Networks
+	- Client
+	- Network computer requesting resources or services from another network computer
+	- Client workstation human user
+	- Client software installed on workstation
+	- Server
+	- Network computer managing shared resources
+	- Runs network operating software
+	- Workstation
+	- Personal computer
+	- May or may not be connected to network
+	- NIC (network interface card)
+	- Device inside computer
+	- Connects computer to network media
+	- Allows communication with other computers
+	- NOS (network operating system)
+	- Server software
+	- Enables server to manage data, users, groups, security, applications, and other networking functions
+- 13. Elements Common to Client/Server Networks
+	- A NIC (network interface card) Courtesy Course Technology/Cengage Learning
+	- Host
+	- Computer
+	- Enables network resource sharing by other computers
+	- Node
+	- Client, server, or other device
+	- Communicates over a network
+	- Identified by unique network address
+	- Connectivity device
+	- Allows multiple networks or multiple parts of one network to connect and exchange data
+	- Segment
+	- Group of nodes
+	- Uses same communications channel for traffic
+	- Backbone
+	- Connects segments and significant shared devices
+	- “A network of networks”
+	- Topology
+	- Computer network physical layout
+	- Ring, bus, star or hybrid formation
+	- A LAN backbone
+- 14. Courtesy Course Technology/Cengage Learning
+	- Common network topologies
+	- Protocol
+	- Standard method or format for communication between networked devices
+	- Packet
+	- Distinct data units exchanged between nodes
+	- Addressing
+	- Scheme for assigning unique identifying number to every node
+	- Transmission media
+	- Means through which data is transmitted and received 28
+- 14. How Networks Are Used
+	- Network services
+	- Functions provided by a network
+	- E-mail
+	- Printer sharing
+	- File sharing
+	- Internet access and Web site delivery
+	- Remote access capabilities
+	- Voice (telephone) and video services
+	- Network management
+- 16. File and Print Services
+	- File services
+	- Capability of server to share data files, applications and disk storage space
+	- File server
+	- Provides file services
+	- File services provide foundation of networking
+	- Print services
+	- Share printers across network
+	- Saves time and money
+- 17. Access Services
+	- Allow remote user network connection
+	- Allow network users to connect to machines outside the network
+	- Remote user
+	- Computer user on different network or in different geographical location from LAN’s server
+	- Network operating systems include built-in access services
+	- Provide LAN connectivity when WAN connection is not cost-effective
+	- External staff can diagnose problems
+	- Allow external users to use network resources and devices
+	- Same as if logged on to office workstation
+- 18. Communications Services
+	- Convergence
+	- Offering multiple types of communications services on the same network
+	- Unified communications
+	- Centralized management of multiple network-based communications
+	- Mail server
+	- Computer responsible for e-mail storage and transfer 34
+	- Additional tasks of mail servers
+	- Intercept spam
+	- Handle objectionable content
+	- Route messages according to rules
+	- Provide Web-based client for checking e-mail
+	- Notify administrators or users if certain events occur
+	- Schedule e-mail transmission, retrieval, storage, maintenance
+	- Communicate with mail servers on other networks
+	- Mail server runs specialized mail server software 35
+- 19. Internet Services
+	- Web server
+	- Computer installed with appropriate software to supply Web pages to many different clients upon demand
+	- Other Internet services
+	- File transfer capabilities
+	- Internet addressing schemes
+	- Security filters
+	- Means for directly logging on to other Internet computers
+- 20. Management Services
+	- Small network management
+	- Single network administrator
+	- Today’s larger network management
+	- Centrally administered network management tasks
+	- Important network management services
+	- Traffic monitoring and control
+	- Load balancing
+	- Hardware diagnosis and failure alert
+	- Asset management
+	- License tracking
+	- Security auditing
+	- Address management
+	- Backup and restoration of data
+- 21. Becoming a Networking Professional
+	- Job market
+	- Many job postings for computer professionals
+	- Expertise levels required vary
+	- To prepare for entering job market:
+	- Master general networking technologies
+	- Select and study areas of interest
+	- Hone communication and teamwork skills
+	- Stay abreast of emerging technologies
+	- Consider professional certification
+	- Get to know others in your field
+- 22. Mastering the Technical Challenges
+	- Skills to acquire
+	- Installing, configuring, troubleshooting network server and client hardware and software
+	- Understanding characteristics of transmission media
+	- Understanding network design
+	- Understanding network protocols
+	- Understanding how users interact with network
+	- Constructing a network with clients, servers, media, and connectivity devices
+	- Pick one or two areas of concentration
+	- Specialties currently in high demand
+	- Network security
+	- Convergence
+	- In-depth knowledge about one or more NOSs
+	- UNIX, Linux, MAC OS X Server, Microsoft Windows Server 2008 R2
+	- Network management
+	- Wireless network design
+	- Configuration of routers and switches
+	- Centralized data storage and management
+- 23. Developing Your “Soft Skills”
+	- Soft skills
+	- Not easily measurable
+	- Important to networking projects
+	- Examples of soft skills
+	- Customer relations
+	- Oral and written communications
+	- Dependability
+	- Teamwork
+	- Leadership abilities
+- 24. Pursuing Certification
+	- Certification process
+	- Mastering specific material
+	- Hardware system, operating system, programming language, software application
+	- Proving mastery
+	- Pass exams
+	- Professional organizations
+	- CompTIA
+	- Network+
+	- Vendors
+	- Microsoft , Cisco 43
+	- Benefits
+	- Better salary
+	- Greater opportunities
+	- Professional respect
+	- Access to better support
+- 25. Finding a Job in Networking
+	- Job research methods
+	- Search the Web
+	- Check local newspaper’s Web site
+	- Visit a career center
+	- Network with like-minded professionals
+	- Attend career fairs
+	- Enlist a recruiter
+- 26. Joining Professional Associations
+	- Benefits of professional associations
+	- Connect with people having similar interests
+	- New learning opportunities
+	- Specialized information access
+	- Tangible assets (free goods)
+	- Access to publications
+	- Technical workshops and conferences
+	- Free software, pre-release software
+	- Hardware lab access

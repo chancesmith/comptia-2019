@@ -1,0 +1,7 @@
+author: Chance Smith
+date created: May 2019
+
+- First scan
+- Scan once. Saving results.
+- More powerful scans
+  - Find the OS and version

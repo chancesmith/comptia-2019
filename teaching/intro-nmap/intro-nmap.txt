@@ -1,0 +1,3 @@
+date: May 6th 2019
+description:
+Intro to Nmap. Finding out what Nmap is used for and what it was designed for. Answer any questions before moving onto using the tool.

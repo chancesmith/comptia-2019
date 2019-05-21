@@ -1,0 +1,3 @@
+date: May 6th 2019
+description:
+Install Nmap and review the manual. Run a few scans against scanme.nmap.org and answer any questions.

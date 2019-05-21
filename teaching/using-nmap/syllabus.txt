@@ -1,0 +1,13 @@
+author: Chance Smith
+date created: May 2019
+
+- Where do I install Nmap?
+- How do I start Nmap?
+- What is a con of Nmap?
+- What is a pro for using Nmap?
+- How can I test Nmap's scanning ability?
+- Get permission to scan
+- Let's break down a scan
+- Need an IP?
+- Need an IP?
+- First scan
